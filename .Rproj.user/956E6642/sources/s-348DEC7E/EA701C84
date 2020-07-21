@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1595255537667.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4279641884",
+    "id" : "EA701C84",
+    "lastKnownWriteTime" : 1595255535,
+    "last_content_update" : 1595255535,
+    "path" : "~/Documents/Site_PH/content/blog/2015-07-23-r-rmarkdown.Rmd",
+    "project_path" : null,
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

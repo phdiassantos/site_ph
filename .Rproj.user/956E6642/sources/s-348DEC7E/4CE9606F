@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1595255770410.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1831113235",
+    "id" : "4CE9606F",
+    "lastKnownWriteTime" : 1595297913,
+    "last_content_update" : 1595297913158,
+    "path" : "~/Documents/site_ph/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+        "cursorPosition" : "365,117",
+        "scrollLine" : "355"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}

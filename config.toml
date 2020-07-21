@@ -1,0 +1,442 @@
+baseURL = "https://www.example.org/"
+languageCode = "en-us"
+theme = "aafu"
+
+[params]
+    title = "Aafu theme"
+    author = "Pedro H D Santos"
+    email = "pedroh_dias@hotmail.com"
+    copyright = "© 2020. Pedro H. D. Santos. Created with "
+
+    [params.theme]
+        # Available themes are 'light', 'dark', and 'pinkish'
+        mainTheme = "dark"
+        # setting false below will hide 'aafu by darshan' displayed under the profile pic
+        showAttribute = true
+        singlePage = false
+
+    [params.favicons]
+        use = true
+        metas = '''
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">
+        <link rel="shortcut icon" href="favicon.ico">
+        '''
+
+    # Profile section
+    [params.profile]
+        name = "Pedro H. D. Santos."
+		tagline = "Ph.D. Crop Production"
+		location = "Rio de Janeiro, Brazil"
+        photo = "profile2.jpeg"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+            class = "fab"
+            icon = "fa-linkedin-in"
+            url = "https://www.linkedin.com/in/pedro-henrique-dias-santos-51367b2b/"
+            title = "LinkedIn"		
+        
+		[[params.social.list]]
+            class = "ai"
+            icon = "ai-researchgate"
+            url = "https://www.researchgate.net/profile/Pedro_Santos52"
+            title = "ResearchGate"
+            
+    [[params.social.list]]
+            class = "ai"
+            icon = "ai-orcid"
+            url = "https://orcid.org/0000-0003-0325-7947"
+            title = "orcid"          
+            
+    [[params.social.list]]
+            class = "fa"
+            icon = "fa-envelope"
+            url = "pedroh_dias@hotmail.com"
+            title = "e-mail" 
+            
+    
+
+    #Specify what is showin in the Accordion
+    [[params.showInAccordion]]
+        item = "aboutme"
+        expand = true   # true for the section that is initially expanded
+    [[params.showInAccordion]]
+        item = "experience"
+    [[params.showInAccordion]]
+        item = "education"
+    [[params.showInAccordion]]
+        item = "publication"
+    [[params.showInAccordion]]
+        item = "project"
+    [[params.showInAccordion]]
+        item = "skill"
+    [[params.showInAccordion]]
+        item = "hobby"
+    [[params.showInAccordion]]
+        item = "curriculum"     
+
+    [params.aboutme]
+        title = "About Me"
+        icon = "fas fa-user"
+        description = "My knowledge and skills are grounded by plant pathology, plant-pathogen resistance, phylogeny and bioinformatics. My significant strengths include molecular diagnosis, phylogeny, phylogeography, scientific writing, experimental design, scientific methodology, laboratory/field experiments ,data acquisition, data analysis, project management, networking, connecting different disciplines, oral presentation, creative thinking, growth mindset, motivation and science-based solutions. I also have excellent skills in communication, initiative, adaptability, focus, time efficiency, enthusiasm, persistence, organization, self- discipline, self-development, and easy- learning"
+
+    # Experience section
+    [params.experience]
+        title = "Experiences"
+        icon = "fas fa-briefcase"
+
+        [[params.experience.list]]
+            position = "Scientific Researcher - Postdoc in Plant Breeding (Bioinformatics)"
+            dates = "2018 - Present"
+            link = "#"
+            company = "Northern Rio de Janeiro State University - UENF , Brazil"
+      
+        [[params.experience.list]]
+            position = "Assistant Professor (Phylogeny and Phylogeography in Plant Breeding)"
+            dates = "2018"
+            link = "#"
+            company = "Federal University of Espírito Santo - UFES, Brazil"
+            
+         [[params.experience.list]]
+            position = "Scientific Researcher - Postdoc in Crop Production (Phylogenomics)"
+            dates = "2018"
+            link = "#"
+            company = "Federal University of Espírito Santo - UFES, Brazil" 
+            
+        [[params.experience.list]]
+            position = "Scientific Researcher - Postdoc in Plant Breeding (Plant Resistance)"
+            dates = "2017 - 2018"
+            link = "#"
+            company = "Northern Rio de Janeiro State University - UENF , Brazil"
+            
+         [[params.experience.list]]
+            position = "Assistant Professor (Resistance Inducing Fungicides, Protective Mixtures in plant disease, Simulated and Practical Test in Diagnosis of Plant Diseases, Phylogeny)"
+            dates = "2012 - 2018"
+            link = "#"
+            company = "Northern Rio de Janeiro State University - UENF , Brazil" 
+
+    # Education section
+    [params.education]
+        title = "Education"
+        icon = "fas fa-graduation-cap"
+
+        [[params.education.list]]
+            degree = "Ph.D. Crop Production (Major on Plant Pathology)"
+            college = "Northern Rio de Janeiro State University - UENF , Brazil"
+            dates = "2013 - 2017"
+            thesis_title = "PATOGENICIDADE E CARACTERIZAÇÃO MORFOMOLECULAR DE FUNGOS BOTRIOSPHAERIACEOS ASSOCIADOS AO COQUEIRO E FILOGEOGRAFIA DE Lasiodiplodia theobromae"
+            thesis_link = "http://uenf.br/posgraduacao/producao-vegetal/wp-content/uploads/sites/10/2017/07/Tese-PH.pdf"
+        [[params.education.list]]
+            degree = "M.S. in Crop Production (Major on Plant Pathology)"
+            college = "Northern Rio de Janeiro State University - UENF , Brazil"
+            dates = "2011 - 2013"
+            thesis_title = "PRODUTOS ALTERNATIVOS NO CONTROLE DE DOENÇAS FÚNGICAS EM FOLHA E FRUTO DE MAMOEIRO"
+            thesis_link = "http://uenf.br/posgraduacao/producao-vegetal/wp-content/uploads/sites/10/2014/08/Pedro-Henrique.pdf"
+        [[params.education.list]]
+            degree = "B.S. in Agronomy"
+            college = "Northern Rio de Janeiro State University - UENF , Brazil"
+            dates = "2005 - 2011"
+
+    # Publication section
+    [params.publication]
+        title = "Publications"
+        icon = "fas fa-book"
+        #The order below determines the order in which the items appear in "Publications" section
+        format = ["date", "authors", "title", "journal"]
+        #If you don't want to group publications, comment the line below by adding # at the beginning
+        types = ["Journal Articles", "Book Chapter"]
+
+        [[params.publication.list]]
+            title = "Is Lasiodiplodia theobromae the only species that causes leaf blight disease in Brazilian coconut palms"
+            authors = " Santos PHD, Carvalho BM, Aredes FAS, Mussi-Dias V, Pinho DB, Pereira MG, Silveira SF"
+            date = "2020"
+            journal = "Tropical Plant Pathology"
+            link = "https://doi.org/10.1007/s40858-020-00344-x"
+            type = "Journal Articles"
+            
+        [[params.publication.list]]
+            title = "Endophytic fungi associated with the restinga bromeliads the National Park of Jurubatiba Restinga , Rio de Janeiro -Brazil"
+            date = "2020"
+            authors = "Bezerra GA, Mussi-Dias V, Santos PHD, Carvalho BM, Poltronieri TPS, Silveira SF"
+            journal = "Research, Society and Development"
+            link = "https://doi.org/10.33448/rsd-v9i7.4298"
+            type = "Journal Articles"
+            
+        [[params.publication.list]]
+            title = "Topcross hybrids in papaya: Genes derived from backcrossing provide resistance to multiple diseases"
+            date = "2020"
+            authors = "Poltronieri TPS, Silveira SF, Vivas M, Santa-Catarina R, Azevedo AON, Santos PHD, Vettorazzi JC, Ramos HCC, Pereira MG"
+            journal = "Crop Protection"
+            link = "https://doi.org/10.1016/j.cropro.2020.105240"
+            type = "Journal Articles"     
+
+        [[params.publication.list]]
+            title = "Sanitary analysis of Lentinula edodes (Shiitake) mushrooms commercialized in Campos dos Goytacazes, RJ"
+            authors = "Mussi-Dias MAV, Ferreira LP, Azevedo FTA, Santos PHD, Palma LM"
+            date = "2020"
+            journal = "Biológicas & Saúde"
+            link = "https://doi.org/10.25242/8868103220201938"
+            type = "Journal Articles"
+            
+        [[params.publication.list]]
+            title = "Genotyping-by-sequencing technology reveals directions for coconut (Cocos nucifera L.) breeding strategies for water production"
+            authors = "Santos PHAD, Venâncio TM, Santos PHD, Ramos HCC, Arêdes FAS, Azevedo AON, Boechat MSB, Souza-Filho GA, Ramos SRRR, Mirisola LA, Aragão WM, Pereira MG"
+            date = "2020"
+            journal = "Euphytica"
+            link = "https://doi.org/10.1007/s10681-020-02582-1"
+            type = "Journal Articles"
+            
+        [[params.publication.list]]
+            title = "Sensitivity of hyperparasitic fungi to alternative products for use in the control of papaya black spot"
+            authors = "Vivas JMS, Silveira SF, Mussi-Dias V, Santos PHD, Ramos GKS, Santos PR, Almeida RN"
+            date = "2020"
+            journal = "Brazilian Journal of Biology"
+            link = "https://doi.org/10.1590/1519-6984.214909"
+            type = "Journal Articles"
+            
+         [[params.publication.list]]
+            title = "Identificação e seleção de espécies de Trichoderma spp. endofíticos de bromélias de restingas como agentes de biocontrole da fusariose em frutos de abacaxi"
+            authors = "Bezerra GA, Mussi-Dias V, Santos PHD, Arêdes FAS, Silveira SF"
+            date = "2019"
+            journal = "Summa Phytopathologica"
+            link = "https://doi.org/10.1590/0100-5405/189165"
+            type = "Journal Articles"  
+            
+        [[params.publication.list]]
+            title = "Reaction of popcorn lines (s7) cultivated in distinct phosphorus levels to Bipolaris maydis infection"
+            authors = "Amaral-Jr. AT, Poltronieri TPS, Santos PHD, Gerhardt IFS, Carvalho BM, Freitas CS, Silveira SF"
+            date = "2019"
+            journal = "Summa Phytopathologica"
+            link = "https://doi.org/10.1590/0100-5405/176851"
+            type = "Journal Articles"
+            
+         [[params.publication.list]]
+            title = "Phylogeographic distribution of Asperisporium caricae isolates in brazilian southeastern and northeastern coastal regions"
+            authors = "Santos PHD, Oliveira CRR, Gonçalves VML, Arêdes FAS, Carvalho BM, Pereira MG, Silveira SF"
+            date = "2019"
+            journal = "Bioscience Journal"
+            link = "https://doi.org/10.14393/BJ-v35n3a2019-42338"
+            type = "Journal Articles" 
+            
+         [[params.publication.list]]
+            title = "Antagonism of fungi with biocontrol potential of papaya black spot caused by Asperisporium caricae"
+            authors = "Vivas JMS, Silveira SF, Santos PHD, Carvalho BM, Poltronieri TPS, Jorge TS, Santos JS, Kurosawa RNF, Moraes R"
+            date = "2018"
+            journal = "Australian Journal of Crop Science"
+            link = "https://doi.org/10.21475/ajcs.18.12.05.PNE1073"
+            type = "Journal Articles"
+            
+          [[params.publication.list]]
+            title = "Genetic diversity between papaya lines and their correlation with heterosis in hybrids for disease resistance and morpho-agronomic traits"
+            authors = "Vivas M, Cardoso DL, Ramos HCC, Santos PHD, Silveira SF, Moraes R, Pereira MG"
+            date = "2018"
+            journal = "Summa Phytopathologica"
+            link = "https://doi.org/10.1590/0100-5405/176828"
+            type = "Journal Articles" 
+            
+          [[params.publication.list]]
+            title = "Phenotypic characterization of papaya genotypes to determine powdery mildew resistance"
+            authors = "Vivas M, Silveira SF, Vivas JM, Santos PHD, Carvalho BM, Daher RF, Amaral-Jr AT, Pereira MG"
+            date = "2017"
+            journal = "Crop Breeding and Applied Biotechnology"
+            link = "https://doi.org/10.1590/1984-70332017v17n3a31"
+            type = "Journal Articles"
+            
+           [[params.publication.list]]
+            title = "Diagrammatic scale of severity for postharvest black rot (Ceratocystis paradoxa) in coconut palm fruits"
+            authors = "Santos PHD, Mussi-Dias V, Freire MGM, Carvalho BM, Silveira SF"
+            date = "2017"
+            journal = "Summa Phytopathologica"
+            link = "https://doi.org/10.1590/0100-5405/170792"
+            type = "Journal Articles"  
+            
+          [[params.publication.list]]
+            title = "Alternative control to black spot disease in papaya genotypes"
+            authors = "Santos PHD, Silveira SF, Vivas M, Carvalho BM, Pereira MG"
+            date = "2017"
+            journal = "Summa Phytopathologica"
+            link = "https://doi.org/10.1590/0100-5405/2208"
+            type = "Journal Articles"  
+            
+          [[params.publication.list]]
+            title = "Selection of fungi with biocontrol potential against the black spot disease of papaya"
+            authors = "Vivas JMS, Silveira SF, Santos PHD, Pinho DB, Pereira OL"
+            date = "2017"
+            journal = "Pesquisa Agropecuária Tropical"
+            link = "https://doi.org/10.1590/1983-40632017v4749178"
+            type = "Journal Articles"
+            
+          [[params.publication.list]]
+            title = "Phylogeography and population structure analysis reveals diversity by mutations in Lasiodiplodia theobromae with distinct sources of selection"
+            authors = "Santos PHD, Carvalho BM, Aguiar KP, Arêdes FAS, Poltronieri TPS, Vivas JMS, Mussi-Dias V, Bezerra GA, Pinho DB, Pereira MG, Silveira SF"
+            date = "2017"
+            journal = "Genetics and Molecular Research"
+            link = "https://doi.org/10.4238/gmr16029681"
+            type = "Journal Articles" 
+            
+          [[params.publication.list]]
+            title = "Genetic variability affecting Exserohilum turcicum resistance in popcorn lines grown under high and low phosphorus conditions"
+            authors = "Amaral-Jr AT, Ribeiro RM, Santos PHD, Poltronieri TPS, Vivas JMS, Gerhardt IFS, Carvalho BM, Freitas CS, Miranda SB"
+            date = "2016"
+            journal = "Genetics and Molecular Research"
+            link = "https://doi.org/10.4238/gmr15049399"
+            type = "Journal Articles"
+            
+          [[params.publication.list]]
+            title = "Heterosis and genetic diversity for selection of papaya hybrids for resistance to black spot and phoma spot"
+            authors = "Vivas M, Ramos HCC, Santos PHD, Silveira SF, Pereira TNS, Amaral-Jr AT, Pereira MG"
+            date = "2016"
+            journal = "Tropical Plant Pathology"
+            link = "https://doi.org/10.1007/s40858-016-0109-1"
+            type = "Journal Articles"
+            
+          [[params.publication.list]]
+            title = "Fungi detection in weight loss tea"
+            authors = "Nogueira LFC, Alves SN, Santos PHD, Freire MGM, Mussi-Dias V"
+            date = "2015"
+            journal = "Perspectivas Online"
+            link = "https://www.researchgate.net/publication/287995217_FUNGI_DETECTION_IN_WEIGHT_LOSS_TEA"
+            type = "Journal Articles"
+            
+          [[params.publication.list]]
+            title = "Comparison of microscopy techniques to visualize powdery mildew (Erysiphales) conidiophores."
+            authors = "Moreira LS, Carvalho BM, Vivas JM, Santos PHD, Vivas M, Silveira SF"
+            date = "2014"
+            journal = "Científica"
+            link = "https://doi.org/10.15361/1984-5529.2014v42n1p46-50"
+            type = "Journal Articles"
+            
+          [[params.publication.list]]
+            title = "Effect of Castor Bean Oil on Post Harvest Fungal Pathogen of Coconut: Lasiodiplodia theobromae"
+            authors = "Freire MGM, Souza CLM, Portal TP, Machado RMA, Santos PHD, Mussi-Dias V"
+            date = "2013"
+            journal = "Journal of Plant physiology & pathology"
+            link = "https://doi.org/10.4172/2329-955X.1000108"
+            type = "Journal Articles"
+            
+           [[params.publication.list]]
+            title = "Capacidade combinatória e heterose para resistência a pinta-preta em mamoeiro por meio de análise dialélica"
+            authors = "Vivas M, Silveira SF, Cardoso DL, Pereira MG, Santos PHD, Ferreguetti GA"
+            date = "2012"
+            journal = "Tropical Plant Pathology"
+            link = "https://doi.org/10.1590/S1982-56762012000500004"
+            type = "Journal Articles"
+            
+           [[params.publication.list]]
+            title = "Elaboração e validação de escala diagramática para avaliação da severidade de oídio em folhas de mamoeiro"
+            authors = "Santos PHD, Vivas M, Silveira SF, Silva JM, Terra CEPS"
+            date = "2011"
+            journal = "Summa Phytopathologica"
+            link = "https://doi.org/10.1590/S0100-54052011000400011"
+            type = "Journal Articles"   
+		
+        [[params.publication.list]]
+            title = "Filogeografia molecular e o melhoramento genético"
+            authors = "Santos PHD, Carvalho BM"
+            date = "2018"
+            journal = "in Tópicos Especiais em Genética e Melhoramento II"
+            link = "https://www.researchgate.net/publication/327695694_Filogeografia_molecular_e_o_melhoramento_genetico_de_plantas"
+            type = "Book Chapter"
+
+    # Teaching section
+    [params.project]
+        title = "Teaching"
+        icon = "fas fa-laptop"
+        
+        [[params.project.list]]
+            title = "Filogenia Molecular"
+            url = "https://www.instagram.com/p/CCb1qcoJmP_/?utm_source=ig_web_copy_link"
+            description = "Duration: 12h - In: Biometria Vegetal - UFES , YouTube (Live)"
+
+        [[params.project.list]]
+            title = "Introdução ao Python para Bioinformática "
+            url = "https://github.com/phdiassantos/curso_python_UENF_2019"
+            description = "Duration: 08h - UENF, Campos dos Goytacazes - RJ"
+            
+        [[params.project.list]]
+            title = "Molecular Phylogenetics"
+            url = "https://www.ganhogenetico.com/iii-wgpb"
+            description = "Duration: 08h - In: III Workshop in Genetics and Plant Breeding , Campos dos Goytacazes - RJ"    
+       
+    # Skill section
+    [params.skill]
+        title = "Skills"
+        panelId = "skill-panel"
+        icon = "fas fa-cogs"
+
+        [[params.skill.list]]
+            skill = "Phylogeny"
+            skillrating = 95
+        [[params.skill.list]]
+            skill = "Scientific writing"
+            skillrating = 90
+        [[params.skill.list]]
+            skill = "Plant Pathology"
+            skillrating = 90       
+        [[params.skill.list]]
+            skill = "R"
+            skillrating = 80
+        [[params.skill.list]]
+            skill = "Bioinformatics"
+            skillrating = 70    
+        [[params.skill.list]]
+            skill = "Python"
+            skillrating = 50
+        [[params.skill.list]]
+            skill = "Perl"
+            skillrating = 30    
+
+    # Courses section
+    [params.hobby]
+        title = "Courses"
+        icon = "fas fa-university"
+		
+        [[params.hobby.list]]		
+		    hobby = "2020 - Introduction to Second Generation Sequencing Data Analysis"
+        [[params.hobby.list]]		
+		    hobby = "2020 - Temporal Analysis"
+        [[params.hobby.list]]		
+		    hobby = "2019 - I Latin American School of Bioinformatics for the “OMIC” Sciences"
+		    [[params.hobby.list]]		
+		    hobby = "2019 - R Software for Bioinformatics"
+		    [[params.hobby.list]]		
+		    hobby = "2019 - Python Programming"
+		    [[params.hobby.list]]		
+		    hobby = "2019 - Invited Speaker at Northern Rio de Janeiro State University, Brazil"
+		    [[params.hobby.list]]		
+		    hobby = "2019 - Tropical Fusarium Workshop"
+		    [[params.hobby.list]]		
+		    hobby = "2018 - Metagenomics Analysis: From DNA extraction to analysis of sequencing data"
+		    [[params.hobby.list]]		
+		    hobby = "2018 - Methods of Phylogenetic and Phylogenomic Analysis"
+		    [[params.hobby.list]]		
+		    hobby = "2018 - Phylogenetic Data Analysis in Practice"
+		    [[params.hobby.list]]		
+		    hobby = "2017 - Writing Scientific Papers and Projects"
+		    [[params.hobby.list]]		
+		    hobby = "2017 - Analysis of DNA sequences and molecular phylogeny of fungi"
+		    [[params.hobby.list]]		
+		    hobby = "2016 - Introduction to Phylogenetics Systematics"
+		    [[params.hobby.list]]		
+		    hobby = "2016 - Use and Applications of Molecular Markers in Population Genetics and Genomics, Phylogeny and Molecular Taxonomy"
+        [[params.hobby.list]]		
+		    hobby = "2016 - Analysis of molecular phylogeny for the phytopathogens identification"
+		    [[params.hobby.list]]		
+		    hobby = "2015 - Planning and Analysis of Experiments in Agriculture"
+		    [[params.hobby.list]]		
+		    hobby = "2015 - Molecular Phylogeny" 
+
+[params.curriculum]
+        title = "CV"
+        icon = "fas fa-file-pdf"
+
+        [[params.curriculum.list]]
+            link = "https://uenf.br/posgraduacao/gmp/en/"
+            company = "Download Here"
