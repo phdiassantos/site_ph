@@ -58,7 +58,7 @@ theme = "aafu"
     [[params.social.list]]
             class = "fa"
             icon = "fa-envelope"
-            url = "pedroh_dias@hotmail.com"
+            url = "mailto:pedroh_dias@hotmail.com"
             title = "e-mail" 
             
     
@@ -438,5 +438,5 @@ theme = "aafu"
         icon = "fas fa-file-pdf"
 
         [[params.curriculum.list]]
-            link = "https://uenf.br/posgraduacao/gmp/en/"
+            link = "https://drive.google.com/drive/folders/17r0gdC451ZzTDCx69EA-vM-AQPYpj35y?usp=sharing"
             company = "Download Here"
