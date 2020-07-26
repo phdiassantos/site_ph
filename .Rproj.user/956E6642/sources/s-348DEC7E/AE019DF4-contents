@@ -1,8 +1,0 @@
-blogdown::new_site(theme="darshanbaral/aafu")
-### view real-time changes to site in R Studio; auto-build site with each change!
-
-blogdown::serve_site()  ### or toolbar -> Addins -> Serve Site
-
-### now edit site, create new posts, and save files when finished: your site will auto-update!
-
-### alternatively, explicitly rebuild site via blogdown::hugo_build()

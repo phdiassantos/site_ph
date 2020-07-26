@@ -31,7 +31,7 @@ theme = "aafu"
         name = "Pedro H. D. Santos."
 		tagline = "Ph.D. Crop Production"
 		location = "Rio de Janeiro, Brazil"
-        photo = "profile2.jpeg"
+        photo = "Profile_ph.png"
 
     # Section for links to social websites
     [params.social]
