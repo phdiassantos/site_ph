@@ -201,6 +201,14 @@ theme = "aafu"
             link = "https://doi.org/10.1590/1519-6984.214909"
             type = "Journal Articles"
             
+        [[params.publication.list]]
+            title = "Proteome of resistant and susceptible Passiflora species in the interaction with cowpea aphid-borne mosaic virus reveals distinct responses to pathogenesis"
+            authors = "Carvalho BM, Viana AP, Santos PHD, Generoso AL, Corrêa CCG, Silveira V, Eiras M, Santos EA"
+            date = "2019"
+            journal = "Euphytica"
+            link = "https://doi.org/10.1007/s10681-019-2491-5"
+            type = "Journal Articles"      
+            
          [[params.publication.list]]
             title = "Identificação e seleção de espécies de Trichoderma spp. endofíticos de bromélias de restingas como agentes de biocontrole da fusariose em frutos de abacaxi"
             authors = "Bezerra GA, Mussi-Dias V, Santos PHD, Arêdes FAS, Silveira SF"
@@ -438,5 +446,5 @@ theme = "aafu"
         icon = "fas fa-file-pdf"
 
         [[params.curriculum.list]]
-            link = "https://drive.google.com/drive/folders/17r0gdC451ZzTDCx69EA-vM-AQPYpj35y?usp=sharing"
+            link = "https://drive.google.com/file/d/1exOhFS64ZJkC9IDid0dptNTx2cl0HAr_/view?usp=sharing"
             company = "Download Here"
