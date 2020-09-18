@@ -6,13 +6,13 @@ theme = "aafu"
     title = "Aafu theme"
     author = "Pedro H D Santos"
     email = "pedroh_dias@hotmail.com"
-    copyright = "© 2020. Pedro H. D. Santos. Created with "
+    copyright = "© 2020. Pedro H. D. Santos."
 
     [params.theme]
         # Available themes are 'light', 'dark', and 'pinkish'
         mainTheme = "dark"
         # setting false below will hide 'aafu by darshan' displayed under the profile pic
-        showAttribute = true
+        showAttribute = false
         singlePage = false
 
     [params.favicons]
@@ -85,7 +85,7 @@ theme = "aafu"
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-user"
-        description = "My knowledge and skills are grounded by plant pathology, plant-pathogen resistance, phylogeny and bioinformatics. My significant strengths include molecular diagnosis, phylogeny, phylogeography, scientific writing, experimental design, scientific methodology, laboratory/field experiments ,data acquisition, data analysis, project management, networking, connecting different disciplines, oral presentation, creative thinking, growth mindset, motivation and science-based solutions. I also have excellent skills in communication, initiative, adaptability, focus, time efficiency, enthusiasm, persistence, organization, self- discipline, self-development, and easy- learning"
+        description = "My knowledge and skills are grounded by plant pathology, plant-pathogen resistance, phylogeny and bioinformatics. My significant strengths include molecular diagnosis, phylogeny, phylogeography, scientific writing, experimental design, scientific methodology, laboratory/field experiments ,data acquisition, data analysis, project management, networking, connecting different disciplines, oral presentation, creative thinking, growth mindset, motivation and science-based solutions. I also have excellent skills in communication, initiative, adaptability, focus, time efficiency, enthusiasm, persistence, organization, self- discipline, self-development, and easy- learning."
 
     # Experience section
     [params.experience]
