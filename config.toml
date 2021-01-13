@@ -160,7 +160,15 @@ theme = "aafu"
             journal = "NATURE Research - Scientific Reports"
             link = "https://doi.org/10.1038/s41598-020-79401-z"
             type = "Journal Articles"
-
+            
+         [[params.publication.list]]
+            title = "Response of Snap Bean Lines to Charcoal Rot Disease"
+            authors = "Entringer GC,  Santos PHD, Cruz DP, Seara GCV,  Sant'Anna CQSS, Gravina GA"
+            date = "2020"
+            journal = "REVISTA TRÓPICA: Ciências Agrárias e Biológica"
+            link = "https://www.researchgate.net/publication/348186537_Response_of_Snap_Bean_Lines_to_Charcoal_Rot_Disease"
+            type = "Journal Articles"
+            
         [[params.publication.list]]
             title = "Is Lasiodiplodia theobromae the only species that causes leaf blight disease in Brazilian coconut palms"
             authors = " Santos PHD, Carvalho BM, Aredes FAS, Mussi-Dias V, Pinho DB, Pereira MG, Silveira SF"
