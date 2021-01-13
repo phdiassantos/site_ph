@@ -152,6 +152,14 @@ theme = "aafu"
         format = ["date", "authors", "title", "journal"]
         #If you don't want to group publications, comment the line below by adding # at the beginning
         types = ["Journal Articles", "Book Chapter"]
+        
+         [[params.publication.list]]
+            title = "Discovery of SNPs and InDels in papaya genotypes and its potential for marker assisted selection of fruit quality traits"
+            authors = "Bohry D, Ramos HCC,  Santos PHD, Boechat MSB, Aredes FAS, Pirovani AAV, Pereira MG"
+            date = "2021"
+            journal = "NATURE Research - Scientific Reports"
+            link = "https://doi.org/10.1038/s41598-020-79401-z"
+            type = "Journal Articles"
 
         [[params.publication.list]]
             title = "Is Lasiodiplodia theobromae the only species that causes leaf blight disease in Brazilian coconut palms"
