@@ -153,6 +153,14 @@ theme = "aafu"
         #If you don't want to group publications, comment the line below by adding # at the beginning
         types = ["Journal Articles", "Book Chapter"]
         
+        [[params.publication.list]]
+            title = "Is Your Açaí Really from Amazon? Using DNA Barcoding to Authenticate Commercial Products"
+            authors = "Lugon MD,  Santos PHD, Oliveira PV, Almeida FAN, Luber J, Forzza RC, Jardim MAG, Paneto GG"
+            date = "2021"
+            journal = "Food Analytical Methods"
+            link = "https://doi.org/10.1007/s12161-021-01998-2"
+            type = "Journal Articles"
+            
          [[params.publication.list]]
             title = "Discovery of SNPs and InDels in papaya genotypes and its potential for marker assisted selection of fruit quality traits"
             authors = "Bohry D, Ramos HCC,  Santos PHD, Boechat MSB, Aredes FAS, Pirovani AAV, Pereira MG"
