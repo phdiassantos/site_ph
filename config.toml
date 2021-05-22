@@ -154,6 +154,22 @@ theme = "aafu"
         types = ["Journal Articles", "Book Chapter"]
         
         [[params.publication.list]]
+            title = "DArTseq-derived SNPs for the genus Psidium reveal the high diversity of native species"
+            authors = "Grossi LL, Fernandes M, Silva MA, Bernardes CO, Tuler AC, Santos PHD, Ferreira A, Ferreira MFS"
+            date = "2021"
+            journal = "Tree Genetics & Genomes"
+            link = "https://doi.org/0.1007/s11295-021-01505-y"
+            type = "Journal Articles"
+        
+         [[params.publication.list]]
+            title = "How segregating populations of passion fruit react to CABMV infection?"
+            authors = "Carvalho BM, Pio Viana A, Silva FA, Santos PHD, Eiras M, Santos EA"
+            date = "2021"
+            journal = "European Journal of Plant Pathology"
+            link = "https://doi.org/10.1007/s10658-021-02289-6"
+            type = "Journal Articles"
+        
+        [[params.publication.list]]
             title = "Is Your Açaí Really from Amazon? Using DNA Barcoding to Authenticate Commercial Products"
             authors = "Lugon MD,  Santos PHD, Oliveira PV, Almeida FAN, Luber J, Forzza RC, Jardim MAG, Paneto GG"
             date = "2021"
@@ -168,6 +184,22 @@ theme = "aafu"
             journal = "NATURE Research - Scientific Reports"
             link = "https://doi.org/10.1038/s41598-020-79401-z"
             type = "Journal Articles"
+            
+         [[params.publication.list]]
+            title = "Estudos Filogeográficos Utilizando Dados de GBS"
+            authors = "Almeida FAN,Santos PHD"
+            date = "2020"
+            journal = "in Tópicos Especiais em Genética e Melhoramento III"
+            link = "https://www.researchgate.net/publication/349640864_ESTUDOS_FILOGEOGRAFICOS_UTILIZANDO_DADOS_DE_GBS"
+            type = "Book Chapter" 
+          
+         [[params.publication.list]]
+            title = "A Família de Genes Terpeno Sintase em Myrtaceae: Importância Evolutiva e Adaptativa"
+            authors = "Canal D, Turchetto-Zolet AC, Carpinetti PA, Santos PHD, Ferreira MFS"
+            date = "2020"
+            journal = "in Tópicos Especiais em Genética e Melhoramento III"
+            link = "https://www.researchgate.net/publication/349640788_A_FAMILIA_DE_GENES_TERPENO_SINTASE_EM_MYRTACEAE_IMPORTANCIA_EVOLUTIVA_E_ADAPTATIVA"
+            type = "Book Chapter" 
             
          [[params.publication.list]]
             title = "Response of Snap Bean Lines to Charcoal Rot Disease"
@@ -383,6 +415,10 @@ theme = "aafu"
         icon = "fas fa-laptop"
         
         [[params.project.list]]
+            title = "Hongos, riquezas biotecnológicas poco conocidas: ¿Como pueden ayudar a salvar el planeta?"
+            description = "Duration: 2h - Fundación Universitaria de Popayán - Colômbia"
+
+        [[params.project.list]]
             title = "Filogenia Molecular"
             url = "https://www.instagram.com/p/CCb1qcoJmP_/?utm_source=ig_web_copy_link"
             description = "Duration: 12h - In: Biometria Vegetal - UFES , YouTube (Live)"
@@ -417,13 +453,13 @@ theme = "aafu"
             skillrating = 80
         [[params.skill.list]]
             skill = "Bioinformatics"
-            skillrating = 70    
+            skillrating = 80    
         [[params.skill.list]]
             skill = "Python"
-            skillrating = 50
+            skillrating = 60
         [[params.skill.list]]
             skill = "Perl"
-            skillrating = 30    
+            skillrating = 40    
 
     # Courses section
     [params.hobby]
