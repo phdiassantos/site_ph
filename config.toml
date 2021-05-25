@@ -506,5 +506,5 @@ theme = "aafu"
         icon = "fas fa-file-pdf"
 
         [[params.curriculum.list]]
-            link = "https://drive.google.com/file/d/1A5sge8fbHTrCYdPJwcrtOarcSLtfXhet/view?usp=sharing"
+            link = "https://drive.google.com/file/d/1lWSioDnZrZ1v9LySs5pWSEoMrBC3hZL8/view?usp=sharing"
             company = "Download Here"
